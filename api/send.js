@@ -1,9 +1,5 @@
-project/
-  api/
-    send.js
-  package.json
 export default async function handler(req, res) {
-  // CORS разрешаем всем
+  // CORS для всех
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
